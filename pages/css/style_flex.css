@@ -1,0 +1,231 @@
+.kotak-utama{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.kotak-pertama{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:420px;
+    height:400px;
+}
+.kotak-kedua{
+    display: flex;
+    flex-direction: row;
+}
+/* container 2 kotak utama dibawah
+.container-kotak-kedua{
+    display: flex;
+    flex-direction: row;
+} */
+.kotak-ketiga{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.container{
+    display: flex;
+    margin: 0 auto;
+
+    width: 420px;
+    height:620px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height:400px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    height: 100px;
+}
+
+/* kotak sebelah kanan */
+.container-group-1{
+    display: flex;
+    width:200px;
+    height:400px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* isinya con 3 dan 4 */
+.container-group-2{
+    display: flex;
+    flex-direction: row;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 300px;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 300px;
+}
+
+
+
+
+
+
+body{
+    background-color: aqua;
+}
+.item-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #ff36a1;
+    grid-area: instagram;
+}
+
+.item-2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #18e3f1;
+    grid-area: twitter;
+}
+
+.item-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 100px;
+    width: 220px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #8fff49;
+    grid-area: google;
+}
+
+.item-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #6a478f;
+    grid-area: yahoo;
+}
+
+.item-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(208, 11, 11);
+    grid-area: youtube;
+}
+
+.item-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(48, 159, 7);
+    grid-area: whatsapp;
+}
+
+.item-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #6cf318;
+    grid-area: spotify;
+}
+
+.item-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 310px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #00a26f;
+    grid-area: maps;
+}
+
+.item-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #21142f;
+    grid-area: tools;
+}
+
+.item-10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 420px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #3ea200;
+    grid-area: watch;
+}

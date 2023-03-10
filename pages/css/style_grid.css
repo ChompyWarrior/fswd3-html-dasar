@@ -1,0 +1,114 @@
+body {
+    padding-top: 20px;
+    background: #8dd5fa;
+}
+
+
+.grid-1 {
+    display: grid;
+    background: white;
+    padding: 10px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    max-width: 500px;
+    grid-gap: 10px;
+
+    grid-template-areas: "instagram instagram twitter twitter"
+        "instagram instagram google yahoo"
+        "youtube youtube google whatsapp"
+        "youtube youtube spotify whatsapp"
+        "watch watch watch maps"
+        "tools tools tools tools";
+}
+
+/* items */
+
+.grid-1 div {
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* specific item styles */
+
+.item-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #ff36a1;
+    grid-area: instagram;
+}
+
+.item-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #18e3f1;
+    grid-area: twitter;
+}
+
+.item-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #8fff49;
+    grid-area: google;
+}
+
+.item-4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #6a478f;
+    grid-area: yahoo;
+}
+
+.item-5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(208, 11, 11);
+    grid-area: youtube;
+}
+
+.item-6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(48, 159, 7);
+    grid-area: whatsapp;
+}
+
+.item-7 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #6cf318;
+    grid-area: spotify;
+}
+
+.item-8 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #00a26f;
+    grid-area: maps;
+}
+
+.item-9 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #21142f;
+    grid-area: tools;
+}
+
+.item-10 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    background: #3ea200;
+    grid-area: watch;
+}
