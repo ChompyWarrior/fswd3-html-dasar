@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jankenpon</title>
+</head>
+
+<body>
+    <script>
+            let isConfrim = confirm("Ingin Bermain?");
+            if(isConfrim ==true){
+                let person = prompt("Tolong masukkan nama anda :", "Harry Potter");
+            if (person == null || person == "") {
+                text = "Kamu tidak jadi bermain :( ";
+            } else {
+                let computerChoice = Math.floor(Math.random() * 10);
+                if(computerChoice<=3){  
+                    computerChoice = "gunting";
+                }else if(computerChoice > 3 && computerChoice < 7){
+                    computerChoice = "kertas";
+                }else{
+                    computerChoice = "batu";
+                }
+
+                let playerChoice = prompt("Mau gunakan gunting,kertas atau batu? : ","batu");
+                if(computerChoice == playerChoice){
+                    alert("Computer memilih : "+computerChoice+"\n"+ person+" memilih : "+playerChoice+"\nHasil Seri" );
+
+                }else if(computerChoice =="gunting" && playerChoice =="kertas") {
+                    alert("Computer memilih : "+computerChoice+"\n"+ person+" memilih : "+playerChoice+"\n"+person+" kalah" );
+
+                }else if(computerChoice =="kertas" && playerChoice =="batu") {
+                    alert("Computer memilih : "+computerChoice+"\n"+ person+" memilih : "+playerChoice+"\n"+person+" kalah" );
+
+                }else{
+                    alert("Computer memilih : "+computerChoice+"\n"+ person+" memilih : "+playerChoice+"\n"+person+" menang" );
+
+                }
+
+                
+            }
+            }else{
+                alert("Baiklah :)")
+            }
+
+
+        
+    </script>
+</body>
+
+</html>
