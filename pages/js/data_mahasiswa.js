@@ -1028,9 +1028,6 @@ let sumScoreMale = totalMale.map(mhs =>{
   }
 })
 
-console.log(sumScoreFemale)
-console.log(sumScoreMale)
-
 //mencari avg
 var avgFemale = 0
 for (var i = 0;i<sumScoreFemale.length;i++){
@@ -1040,9 +1037,6 @@ var avgMale = 0
 for (var i = 0;i<sumScoreMale.length;i++){
   avgMale += parseFloat(sumScoreFemale[i])
 }
-
-console.log(avgFemale)
-console.log(avgMale)
 
 let Female = {
   Female : {
