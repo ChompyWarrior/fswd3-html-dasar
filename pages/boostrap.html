@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bootstrap</title>
+    <link rel="stylesheet" href="../pages/css/bootstrap.css">
+    <link rel="stylesheet" href="../pages/js/bootstrap.js">
+</head>
+
+<body>
+    <style>
+        li {
+            padding-inline-start: 10px;
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+        }
+        a{
+            font-size: 15px;
+        }
+    </style>
+    <nav>
+        <ul class="d-flex flex-row list-unstyled">
+            <div class="d-flex w-75 justify-content-center align-items-center">
+                <li class="text-decoration-none text-black"><a href="#">Blogku</a></li>
+            </div>
+            <div class="d-inline-flex flex-row w-25 ps-1 pt-1">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="w-100" style="height: 200px; background-color: rgb(199, 255, 236);">
+        <div class="d-flex flex-column" style="padding-top: 50px;">
+            <h1 style="padding-left: 36%">Blogku</h1>
+            <p style="padding-left: 36%">Blogku adalah blog yang berisikan tutorial dan
+                informasi seputar dunia
+                pemrograman
+            </p>
+        </div>
+    </div>
+    <div class="d-flex flex-row bg-light">
+        <div class="container-fluid d-flex flex-column w-75">
+            <div class="d-flex flex-column pt-4">
+                <h4>Artikel Ku</h4>
+                <p>Artikel Seputar Website</p>
+            </div>
+            <div class="d-inline-flex flex-row">
+                <div class="d-flex flex-column ms-3 p-4 shadow-sm border mb-4" style="width: 33%;" >
+                    <img src="../assets/images/gojo.jpg" class="img-fluid rounded-top" style="max-height: 250px;" alt="">
+                    <p>Coba coba saja</p>
+                    <div class="mb-3 p-1" style="background-color: aquamarine;">
+                        <a class="text-dark text-decoration-none" href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column ms-3 p-4 shadow-sm border mb-4" style="width: 33%;">
+                    <img src="../assets/images/gojo.jpg" class="img-fluid rounded-top" style="max-height: 250px;" alt="">
+                    <p>Coba coba saja</p>
+                    <div class="mb-3 p-1" style="background-color: aquamarine;">
+                        <a class="text-dark text-decoration-none" href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column ms-3 p-4 shadow-sm border mb-4" style="width: 33%;">
+                    <img src="../assets/images/gojo.jpg" class="img-fluid rounded-top" style="max-height: 250px;" alt="">
+                    <p>Coba coba saja</p>
+                    <div class="mb-3 p-1" style="background-color: aquamarine;">
+                        <a class="text-dark text-decoration-none" href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column w-25 pt-4">
+            <h4>Artikel terkait</h4>
+            <p>Artikel ini bla bla bla</p>
+            <a class="text-decoration-none" href="#">Belajar HTML</a>
+            <a class="text-decoration-none" href="#">Belajar CSS</a>
+            <a class="text-decoration-none" href="#">Belajar Javascript</a>
+            <a class="text-decoration-none" href="#">Belajar PHP</a>
+            <a class="text-decoration-none" href="#">Belajar MySQL</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
